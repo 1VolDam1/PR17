@@ -1,0 +1,79 @@
+@import url(/styles/header.css);
+@import url(/fonts/fonts.css);
+@import url(/styles/main/main.css);
+@import url(/styles/main/card.css);
+@import url(/styles/main/block.css);
+@import url(/styles/main/blockquote.css);
+@import url(/styles/footer.css);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.page {
+  min-inline-size: 360px;
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+blockquote,
+ul,
+ol,
+li,
+figure {
+  margin: 0;
+}
+
+
+:root {
+  --bg-color: #F3EFEC;
+  --text-color: #312A4E;
+  --accent-color: #FFAB6B;
+  --bg-color-dark: #171717;
+  --main-font: 'Raleway';
+  --accent-font: 'STIX Two Text'; 
+}
+
+.page {
+  min-inline-size: 360px;
+  max-inline-size: 1920px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--main-font);
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-family: var(--accent-font);
+}
+
+
+/* Дополнительные стили для кнопок и акцентов */
+.button {
+  background-color: var(--accent-color);
+  color: var(--bg-color);
+}
+
+.theme_dark {
+--bg-color-dark: #171717;
+--text-color-dark: #B3B3B3;
+--accent-color: transparent;
+background-color: var(--bg-color-dark);
+color: var(--text-color-dark);
+}
+
+.theme_dark .header__theme-button_type_dark {
+    color: var(--text-color-dark); /* Цвет текста для кнопки темной темы */
+}
+
+.theme_dark .header__theme-button_type_light {
+    color: var(--text-color-dark); /* Цвет текста для кнопки светлой темы */
+}
+
+
+

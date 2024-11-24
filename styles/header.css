@@ -1,0 +1,108 @@
+.header__title {
+  font-family: var(--accent-font);
+  font-size: clamp(3.75rem, 2.5rem + 5.5556vw, 7.5rem);
+  margin-bottom: 20px;
+  padding-top: 10%;
+}
+
+.header__theme-button {
+  color: var(--accent-color);
+}
+
+.header__theme-button_type_light {
+  top: 70%;
+  background-color: var(--accent-color);
+}
+
+.heading {
+  font-family: var(--accent-font);
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.header__theme-toggler {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.header__theme-toggler li {
+    list-style: none;
+    font-family: var(--main-font);
+    font-size: 18px;
+}
+
+.header__theme-button {
+  background: none;
+  border: none;
+  color: currentColor;
+  font-family: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--text-color-light);
+}
+
+.header__theme-button:hover {
+  text-decoration: underline; /* Подчёркивание при наведении */
+}
+
+.header__theme-button_is-active {
+  font-weight: bold;
+}
+
+.header__theme-button_is-active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  z-index: -1;
+}
+
+nav {
+  border-top: 2px solid var(--text-color); 
+  border-bottom: 2px solid var(--text-color);
+}
+
+.theme_dark nav {
+  border-top: 2px solid var(--text-color-dark); 
+  border-bottom: 2px solid var(--text-color-dark);
+}
+
+button:focus,
+a:focus {
+  outline: 2px solid currentColor;
+}
+
+button:disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+
+
+.theme_dark .header__theme-button_is-active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    
+    z-index: -1;
+}
+
+.theme_dark .heading {
+  color: var(--text-color-dark);
+}

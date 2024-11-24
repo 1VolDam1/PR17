@@ -1,0 +1,66 @@
+.content__title {
+  font-family: var(--accent-font);
+  font-size: clamp(1.875rem, 1.875rem + 0vw, 1.875rem);
+  margin-top: 7vw;
+  margin-bottom: 2.5vw;
+  color: var(--text-color);
+}
+
+/*Боковые внутренние отступы*/
+.content-section {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.content__paragraph {
+  text-align: left;
+  font-family: var(--main-font);
+}
+
+ .content__paragraph:first-child:first-letter {
+  display: inline-block; /*первая буква блочно-строчная*/
+  background-color: var(--bg-volor-dark);
+  padding: 4px;
+  margin-right: 1px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.content__text-block_type_first-lettered::first-letter {
+  background-color: var(--accent-color);
+  padding: 0 5px;
+  margin: 0 4px 0 0;
+}
+
+.content__picture {
+  width: 100%;
+  height: auto;
+}
+
+.content__picture-caption {
+  font-family: var(--main-font);
+  padding: 1.25em;
+  font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
+  color: #312A4E;
+  text-align: center;
+  border-bottom: 1px solid #312A4E;
+}
+
+.theme_dark .content__picture-caption {
+  color: var(--text-color-dark);
+  border-bottom: 1px solid var(--text-color-dark);
+}
+
+.content__text-block_type_first-lettered .content__paragraph:first-child:first-letter {
+  display: inline-block; 
+  background-color: var(--accent-color); 
+  padding: 4px; 
+  margin-right: 1px; 
+  font-size: 2em; 
+  font-weight: bold; 
+}
+
+.theme_dark .content__paragraph:first-child:first-letter {
+    border: 2px solid var(--text-color-dark); /* Граница для буквицы в темной теме */
+}
+ 
