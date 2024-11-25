@@ -5,6 +5,7 @@
   margin: 1.5em auto;
   font-style: italic;
   font-size: 1.125rem;
+  line-height: 200%;
   color: #312A4E;
 }
 
@@ -15,5 +16,6 @@
   margin: 1.5em auto;
   font-style: italic;
   font-size: 1.125rem;
+  line-height: 200%;
   color: var(--text-color-dark);
 }
