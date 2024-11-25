@@ -36,14 +36,15 @@ border: 2px solid var(--text-color-dark);
 
 .colored-text {
   position: relative;
+  display: inline-block;
 }
 
 .colored-text::after {
   content: '';
   position: absolute;
   left: 0;
-  top: 70%;
-  width: calc(100% + 10px);
+  top: 65%;
+  width: 100%;
   height: 0.2em;
   background-color: var(--accent-color);
   z-index: -1;
@@ -54,8 +55,8 @@ border: 2px solid var(--text-color-dark);
     content: '';
     position: absolute;
     left: 0;
-    top: 70%;
-    width: calc(100% + 10px);
+    top: 65%;
+    width: 100%;
     height: 0.2em;
     background-image: url(/images/pattern.svg);
     z-index: -1;
