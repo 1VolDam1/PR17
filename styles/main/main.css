@@ -26,6 +26,13 @@
   font-weight: bold;
 }
 
+.content__text-block {
+  font-size: 18px;
+  /*border: 1px solid orange;*/
+  padding: 1rem;
+  margin-bottom: 20px;
+}
+
 .content__text-block_type_first-lettered::first-letter {
   background-color: var(--accent-color);
   padding: 0 5px;
