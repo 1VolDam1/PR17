@@ -141,3 +141,11 @@ button:disabled {
 .theme_dark .heading {
   color: var(--text-color-dark);
 }
+
+.theme_dark .header__theme-button_type_dark {
+    color: var(--text-color-dark); /* Цвет текста для кнопки темной темы */
+}
+
+.theme_dark .header__theme-button_type_light {
+    color: var(--text-color-dark); /* Цвет текста для кнопки светлой темы */
+}
