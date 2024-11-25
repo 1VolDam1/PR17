@@ -27,7 +27,7 @@
 }
 
 .content__text-block {
-  font-size: 18px;
+  font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   /*border: 1px solid orange;*/
   padding: 1rem;
   margin-bottom: 20px;
