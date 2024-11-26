@@ -133,7 +133,7 @@ button:disabled {
     top: 70%;
     width: 100%;
     height: 0.4em;
-    background-image: url(./images/pattern.svg);
+    background-image: url('./images/pattern.svg');
     z-index: -1;
     transform: translateY(-50%); /* Центрируем по вертикали */
 }
