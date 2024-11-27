@@ -27,5 +27,5 @@
 }
 
 .theme_dark .content__list li::before {
-    background-image: url(/images/marker-dark.svg) no-repeat center center; /* Новое изображение маркера */
+    background: url(/images/marker-dark.svg) no-repeat center center; /* Новое изображение маркера */
 }
