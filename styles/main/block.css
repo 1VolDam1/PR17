@@ -17,7 +17,7 @@
   transform: translateY(-50%); /*Центрирование по вертикали*/
   width: 15px;
   height: 15px;
-  background-image: url(/images/marker-light.svg);
+  background-image: url(../../images/marker-light.svg);
   background-size: cover; /*Масштабирование изображения*/
   background-position: center;
 }
@@ -27,5 +27,5 @@
 }
 
 .theme_dark .content__list li::before {
-    background: url(/images/marker-dark.svg) no-repeat center center; /* Новое изображение маркера */
+    background: url(../../images/marker-dark.svg) no-repeat center center; /* Новое изображение маркера */
 }
